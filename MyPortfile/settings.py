@@ -148,3 +148,14 @@ STATIC_URL = '/static/'
 STATIC_ROOT='static'
 MEDIA_ROOT='Portfile/media'
 MEDIA_URL='/media/'
+
+
+# Email configuration.
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'portfile.deliver@gmail.com'
+EMAIL_HOST_PASSWORD = 'a6813896'
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'portfile.deliver@gmail.com'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
