@@ -14,7 +14,7 @@ def user_directory_path(instance,filename):
 class Profile(models.Model):
     image= models.ForeignKey('Image',null=True)
     activation_key=models.CharField(max_length=40,null=True)
-    key_expires=models.DateField(default=datetime.datetime.now)
+    key_expires=models.DateTimeField(default=datetime.datetime.now)
     user= models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE,null=True)
 
 class Masterpiece(models.Model):
