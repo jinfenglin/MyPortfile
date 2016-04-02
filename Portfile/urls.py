@@ -6,4 +6,7 @@ urlpatterns=[
         url(r'^register',CreateUser.as_view(),name='register'),
         url(r'^activate/(?P<key>.+)$',Activation.as_view(),name='activation'),
         url(r'^resend_activation/(?P<user_id>.+)$',Resend_Activation.as_view(),name='resend'),
+        url(r'^masterpiece_edit',Edit.as_view(),name='edit')
+
+
 ]

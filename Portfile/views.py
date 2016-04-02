@@ -94,4 +94,8 @@ class Resend_Activation(View):
        else:
            pass
        return redirect('homepage')
-        
+
+class Edit(View):
+    def get(self,request,*arg,**kwargs):
+        return render(request,'Portfile/masterpiece_edit.html')
+
