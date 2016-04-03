@@ -1,5 +1,6 @@
 from django.conf.urls import url
 from views import *
+from django.conf.urls.static import static
 urlpatterns=[
         url(r'^$',HomePage.as_view(),name='homepage'),
         url(r'^login',Login.as_view(),name='login'),
@@ -9,4 +10,4 @@ urlpatterns=[
         url(r'^masterpiece_edit',Edit.as_view(),name='edit')
 
 
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
