@@ -9,7 +9,7 @@ import datetime
 #use django.contrib.auth.get_user_model() to refer to the current active user in code, rather than User
 
 def user_directory_path(instance,filename):
-        return 'user_{0}/{1}/{2}'.format(instance.user.id,type(instance),filename)
+        return 'user_{0}/{1}/{2}'.format(instance.user,type(instance),filename)
 
 class Profile(models.Model):
     image= models.ForeignKey('Image',null=True)

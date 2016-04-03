@@ -8,6 +8,7 @@ from django.views.generic.edit import FormView,CreateView
 from Portfile.models import *
 from Portfile.forms import *
 from django.utils import timezone
+from django.http import HttpResponse
 import sys,hashlib,random
 
 # Create your views here.
@@ -98,4 +99,15 @@ class Resend_Activation(View):
 class Edit(View):
     def get(self,request,*arg,**kwargs):
         return render(request,'Portfile/masterpiece_edit.html')
+    def post(self,request,*arg,**kwargs):
+        if request.FILES and request.FILES.get('upload'):
+            video=Video()
+            video.video=request.FILES.get('upload')
+            video.save()
+            print >> sys.stderr,"save file successed!"
+        else:
+             print >> sys.stderr,"FILES:"+request.FILES
+             print >> sys.stderr,"no file found"
+        return HttpResponse("file saved")
+        
 
