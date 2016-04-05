@@ -1,32 +1,15 @@
 <head>
 {%load static %}
-<style>
-#filedrag
-{
-	display: none;
-	font-weight: bold;
-	text-align: center;
-	padding: 1em 0;
-	margin: 1em 0;
-	color: #555;
-	border: 2px dashed #555;
-	border-radius: 7px;
-	cursor: default;
-}
-#filedrag.hover
-{
-	color: #f00;
-	border-color: #f00;
-	border-style: solid;
-	box-shadow: inset 0 3px 4px #888;
-}
-</style>
+<link rel="stylesheet" href="{% static 'css/drag_drop.css'%}">
 <script src="{% static 'js/masterpiece_editor.js' %}"></script>>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 <body>
 	<h1>Master Piece Edit </h1>
 	<div>
-	<button onclick="createTextInput()" type="button" id="createTextField" > Create Text</button>
+	<button onclick="TextBlock()" type="button" id="createTextField" > Create Text</button>
 	</div>
 	<div>
 		<label for="fileselect">Files to upload:</label>
