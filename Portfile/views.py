@@ -109,5 +109,20 @@ class Edit(View):
              print >> sys.stderr,"FILES:"+request.FILES
              print >> sys.stderr,"no file found"
         return HttpResponse("file saved")
+    
+class Detail(View):
+    def post(self,request,*arg,**kwargs):
+        tmp=[]
+        tmp.append(request.POST.get('html_element'))
+        request.session['test']=tmp;
+        #print >> sys.stderr,'detail view recieve:'+str(self.html_element);
+        #return render(request,'Portfile/masterpiece_detail.html',)
+        return HttpResponse("detail")
+    def get(self,request,*arg,**kwargs):
+        print >> sys.stderr,"**********************"
+        print >> sys.stderr,request.session['test'];
+        context={'html_element':request.session['test']}
+        return render(request,'Portfile/masterpiece_detail.html',context)
+       
         
 

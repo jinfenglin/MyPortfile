@@ -1,5 +1,5 @@
 var fileCache={};
-var blocks=[];
+var block=[];
 window.onload=function(){
 	if(window.File && window.FileList && window.FileReader){
 		Init();
@@ -40,38 +40,39 @@ function FileSelectHandler(e){
 }
 
 function TextBlock(){
+	var _this=this;
 	this.text="";
 	this.width="200px";
+
+	/*create elements*/
 	var frame=document.createElement('div');
 	var container=document.createElement('div');
 	var textArea=document.createElement('textarea');
 	textArea.style.width=this.width;
 	textArea.style.height=this.height;
 
+	/*append elements*/
 	document.body.appendChild(frame);
 	frame.appendChild(container);
-	frame.appendChild(document.createElement('textarea'));
 	container.appendChild(textArea);
-	
-	textArea.addEventListener("keyup",storeText,false);
+
+	/*set event handler*/
+	textArea.addEventListener("keyup",this.storeText,false);
 	textArea.setAttribute('class','moveable-textarea');
 	$(container).draggable({cancel:false,containment:"parent"});
 	$(textArea).resizable({cancel:false});
 
+	/*debug settings*/
 	container.style.border='1px solid #F00';
+	container.style.display='inline-block';
 	frame.style.border='1px solid #F00';
 	container.addEventListener('click',function(){
 		textArea.focus();
 	});
-
-	
-	//$(textArea).resizable({cancel:''});
-
-	function storeText(){
+	this.storeText=function(){
 		this.text=textArea.value;
-		console.log(this.text);
-	}
-	
+		console.log('here');
+	};	
 }
 function VideoBlock(){//create video upload area# show video files  icon in the area
 			    //provide function to delete the video(mouse or key)
@@ -94,5 +95,16 @@ function MySubmission(evt){//rewrite this function, press to save the data to se
 		xhr.open("POST","masterpiece_edit",true);
 		xhr.send(formData);
 	}
+}
+
+function test(evt){
+	console.log("test:"+block[0]);	
+	$.ajax({
+		url:'masterpiece_detail',
+		data:{
+			html_element:JSON.stringify(block[0]),
+		},
+		type:'POST',		
+	});	
 }
 	
