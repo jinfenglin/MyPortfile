@@ -5,7 +5,10 @@
 </head>
 <body>
 <h1>test here</h1>
-{% for element in html_element %}	
-	{{element}}
+{% for element in html_element %}
+	{{element|safe}}
+	<script>
+		var p={{element|safe}};
+	</script>
 {% endfor %}
 <body>

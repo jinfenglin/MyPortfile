@@ -17,6 +17,7 @@ from django.conf.urls import url,include
 from django.contrib import admin
 
 urlpatterns = [
-        url(r'^portfile/',include('Portfile.urls')),
+        #url(r'^portfile/',include('Portfile.urls')),
+        url(r'^',include('Portfile.urls')),
         url(r'^admin/', admin.site.urls),
 ]
