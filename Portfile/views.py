@@ -100,15 +100,17 @@ class Edit(View):
     def get(self,request,*arg,**kwargs):
         return render(request,'Portfile/masterpiece_edit.html')
     def post(self,request,*arg,**kwargs):
+	video_id=0;
         if request.FILES and request.FILES.get('upload'):
             video=Video()
             video.video=request.FILES.get('upload')
             video.save()
+	    video_id=video.id
             print >> sys.stderr,"save file successed!"
         else:
              print >> sys.stderr,"FILES:"+request.FILES
              print >> sys.stderr,"no file found"
-        return HttpResponse("file saved")
+	return HttpResponse("file saved with id:"+str(video_id))
     
 class Detail(View):
     def post(self,request,*arg,**kwargs):

@@ -129,7 +129,7 @@ function ImageBlock(){//create image upload area #show image in place, provide f
 
 function MySubmission(evt){//rewrite this function, press to save the data to server
 	console.log("start sending...");
-	//evt.preventDefault();
+	//evt.preventDefault()
 	//var xhr=new XMLHttpRequest();
 	var formData = new FormData();
 	for(var key in fileCache){
@@ -163,8 +163,8 @@ function MySubmission(evt){//rewrite this function, press to save the data to se
 			url:'masterpiece_edit',
 			type:'POST',
 			data:formData,
-			success:function(){
-				console.log("success submiting files");
+			success:function(data){
+				console.log(data);
 			},
 			cache: false,
 			contentType: false,
