@@ -2,8 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd0a638-bec0-4f4d-acc9-cae183522470" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/MyPortfolio.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/jilin.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyPortfolio/.settings.py.swp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12714" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12714" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12714_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12714_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12714_vm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12714_vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12716" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12716" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12716_vm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12716_vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12718" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12718" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12719" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12719" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12720" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12720" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12720_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12720_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12722" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12722" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12723" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12723" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12732" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12732" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12732_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12732_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12734" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12734" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12735" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12735" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12743" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12743" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12743_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12743_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12743_vm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12743_vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12745" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12745" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12746" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12746" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12747" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12747" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12752" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12752" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12753" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12753" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12754" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12754" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12754_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12754_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12754_vm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12754_vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12759" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12759" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12760" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12760" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12761" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12761" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12762" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12762" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12767" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12767" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12767_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12767_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12767_vm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12767_vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12769" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12769" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12770" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12770" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12813" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12813" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12813_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12813_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12818" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12818" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12819" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12819" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12820" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12820" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12849" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12849" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12849_fsm" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12849_fsm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12851" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12851" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/12852" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/12852" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16386" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16386" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16388" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16388" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16395" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16395" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16397" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16397" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16399" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16399" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16403" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16403" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16405" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16405" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16407" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16407" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16409" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16409" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16413" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16413" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16415" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16415" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16425" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16425" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16433" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16433" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16443" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16443" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16451" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16451" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16464" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16464" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16466" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16466" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16511" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16511" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16519" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16519" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16527" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16527" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16535" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16535" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/base/16385/16573" afterPath="$PROJECT_DIR$/portfolioDb/base/16385/16573" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/global/12874" afterPath="$PROJECT_DIR$/portfolioDb/global/12874" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/global/12874_vm" afterPath="$PROJECT_DIR$/portfolioDb/global/12874_vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/global/12876" afterPath="$PROJECT_DIR$/portfolioDb/global/12876" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/global/12877" afterPath="$PROJECT_DIR$/portfolioDb/global/12877" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/global/12977" afterPath="$PROJECT_DIR$/portfolioDb/global/12977" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/global/pg_control" afterPath="$PROJECT_DIR$/portfolioDb/global/pg_control" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/pg_clog/0000" afterPath="$PROJECT_DIR$/portfolioDb/pg_clog/0000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_0.stat" afterPath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_0.stat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_1.stat" afterPath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_1.stat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_12981.stat" afterPath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_12981.stat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_16385.stat" afterPath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/db_16385.stat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/global.stat" afterPath="$PROJECT_DIR$/portfolioDb/pg_stat_tmp/global.stat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolioDb/pg_xlog/000000010000000000000001" afterPath="$PROJECT_DIR$/portfolioDb/pg_xlog/000000010000000000000001" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/forms.py" afterPath="$PROJECT_DIR$/Portfolio/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/urls.py" afterPath="$PROJECT_DIR$/Portfolio/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/views.py" afterPath="$PROJECT_DIR$/Portfolio/views.py" />
     </list>
     <ignored path="MyPortfile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,28 +102,69 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="MyPortfile" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyPortfile/__init__.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyPortfolio/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyPortfile/settings.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="162">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Portfolio/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,6 +173,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Portfolio/urls.py" />
+        <option value="$PROJECT_DIR$/Portfolio/views.py" />
+        <option value="$PROJECT_DIR$/Portfolio/forms.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -60,6 +193,22 @@
     <option name="x" value="-1" />
     <option name="width" value="1922" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -86,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -102,18 +250,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfile" />
+              <option name="myItemId" value="MyPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Django server.MyPortfile">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -222,6 +423,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -386,26 +593,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -428,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -436,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,11 +649,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyPortfile/__init__.py">
+    <entry file="file://$PROJECT_DIR$/MyPortfile/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/MyPortfile/settings.py" />
+    <entry file="file://$PROJECT_DIR$/Portfolio/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -456,11 +662,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyPortfile/settings.py">
+    <entry file="file://$PROJECT_DIR$/Portfolio/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPortfolio/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPortfolio/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/templates/Portfolio/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="477" column="20" selection-start-line="477" selection-start-column="20" selection-end-line="477" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
