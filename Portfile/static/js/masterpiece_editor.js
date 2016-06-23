@@ -119,6 +119,7 @@ TextBlock.createText=function(){
 	var instance=new TextBlock();
 	block.push(instance);
 }
+//if single file uploaded, insert it as normal, if multipleones uploaded,create gallary
 function VideoBlock(){//create video upload area# show video files  icon in the area
 	//provide function to delete the video(mouse or key)
 	return null;
@@ -132,14 +133,12 @@ function MySubmission(evt){//rewrite this function, press to save the data to se
 	//evt.preventDefault();
 	//var xhr=new XMLHttpRequest();
 	var formData = new FormData();
+
+	//pop out a dialog, each file have a progress bar
 	for(var key in fileCache){
 		console.log("key:"+key);
 		console.log("size:"+fileCache[key].size);
 		formData.append("upload",fileCache[key]);
-
-		//formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
-		//xhr.open("POST","masterpiece_edit",true);
-		//xhr.send(formData);
 
 		$.ajax({
 			xhr: function() {
