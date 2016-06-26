@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.postgres',
     'Mason',
     'RepoKeeper',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -150,7 +151,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT='static'
 MEDIA_ROOT='Portfolio/media'
 MEDIA_URL='/media/'
-
+LOGIN_URL='login'
 
 # Email configuration.
 

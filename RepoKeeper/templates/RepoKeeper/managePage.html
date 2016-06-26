@@ -7,15 +7,21 @@
     {% include 'RepoKeeper/uploadPage.html' %}
     <meta charset="UTF-8">
     <title>Recourse Mangae Page</title>
-    <link rel="stylesheet" href="{% static 'css/drag_drop.css'%}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/upload.css'%}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script>$.ajaxSetup({data: {csrfmiddlewaretoken: '{{ csrf_token }}' },});</script>
 </head>
 <body>
 <h1>Recourse Manage Page </h1>
-<p> show content</p>
+<p> show content
+    {% for file in file_list %}
+        <p> {{ file.file}} </p>
+        <br>
+    {% endfor %}
+
+</p>
 <button onclick='popUp()'> click to pop</button>
 </body>
 </html>

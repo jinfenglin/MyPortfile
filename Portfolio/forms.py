@@ -1,10 +1,10 @@
 from django import forms
 from django.contrib.auth import get_user_model
-from django.shortcuts import render
 from django.template import Context
 from django.template.loader import get_template
 from Portfolio.models import *
 from django.core.mail import send_mail
+from django.core.exceptions import ValidationError
 
 
 class UserCreationForm(forms.Form):
@@ -26,6 +26,13 @@ class UserCreationForm(forms.Form):
         profile.activation_key = datas['activation_key']
         profile.key_expires = datetime.datetime.now() + datetime.timedelta(days=2)
         profile.save()
+
+    def clean_username(self):
+        username=self.cleaned_data['username']
+        user=get_user_model()
+        if user.objects.filter(username=username).exists():
+            raise ValidationError('username {} has been taken, try another one'.format(username),code='user exists')
+        return username
 
     def send_confirm_email(self, data):
         link = 'localhost:8080/Portfolio/activate/' + data['activation_key']

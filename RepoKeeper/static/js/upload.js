@@ -10,6 +10,13 @@ function Init(){
 	var fileselect=document.getElementById("fileselect");
 	var filedrag=document.getElementById("filedrag");
 	fileselect.addEventListener("change", FileSelectHandler, false);
+    
+    //if clickoutside the pop_upload window, close the pop_up
+    $('#overlay').on('click',function(event){
+        if ( event.target != $('#pop_upload').get(0) & $.inArray(event.target,$('#pop_upload').children())==-1) {
+            fadeOut();
+        }
+    })
 
 	var xhr = new XMLHttpRequest();
 	if (xhr.upload) {
@@ -63,14 +70,10 @@ function FileSelectHandler(e){
 }
 
 function popUp(){
-    var upload_form = document.getElementById('pop_upload');
-    //upload_form.fadeIn();
-    upload_form.style.display = 'block';
+    $('#overlay').fadeIn();
 }
 function fadeOut(){
-    var uplaod_form=document.getElementById('pop_upload');
-    //uplaod_form.fadeOut();
-    uplaod_form.style.display= "none";
+    $('#overlay').fadeOut();
 }
 
 function MySubmission(evt){//rewrite this function, press to save the data to server
