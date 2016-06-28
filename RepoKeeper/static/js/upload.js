@@ -76,7 +76,7 @@ function fadeOut(){
     $('#overlay').fadeOut();
 }
 
-function MySubmission(evt){//rewrite this function, press to save the data to server
+function uploadFiles(evt){//rewrite this function, press to save the data to server
 	console.log("start sending...");
 	//evt.preventDefault()
 	//var xhr=new XMLHttpRequest();
@@ -87,7 +87,7 @@ function MySubmission(evt){//rewrite this function, press to save the data to se
 		console.log("key:" + key);
 		console.log("size:" + fileCache[key].size);
 		formData.append("upload", fileCache[key]);
-
+		fileCache=[]
 		$.ajax({
 			xhr: function () {
 				var xhr = new window.XMLHttpRequest();
@@ -97,14 +97,12 @@ function MySubmission(evt){//rewrite this function, press to save the data to se
 						console.log(evt.total);
 						percentComplete = parseInt(percentComplete * 100);
 						console.log(percentComplete);
-
-						if (percentComplete === 100) {
-
+						if (percentComplete == 100) {
+							//remove the progress bar
 						}
 
 					}
 				}, false);
-
 				return xhr;
 			},
 			url: 'uploadPage',
