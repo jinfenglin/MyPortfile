@@ -100,7 +100,6 @@ function uploadFiles(evt){//rewrite this function, press to save the data to ser
 						if (percentComplete == 100) {
 							//remove the progress bar
 						}
-
 					}
 				}, false);
 				return xhr;
