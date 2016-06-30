@@ -60,7 +60,7 @@ function FileDragHover(evt) {
 function createEntry(file) {
     div = document.createElement('div');
     icon = "<div class='col-xs-4'><span class='glyphicon glyphicon-file'>"+file.name+"</span></div>";
-    progressBar = '<div class="progress col-xs-4"> <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:0%"> </div> </div>';
+    progressBar = '<div class="col-xs-4"><div class="progress"> <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"> </div></div></div>';
     operationBar= '<div class="col-xs-4"> <span class="glyphicon glyphicon-trash"></span></div>'
     div.innerHTML='<div class="row">'+icon+progressBar+operationBar+'</div>';
     return div.firstChild;
@@ -69,10 +69,11 @@ function createEntry(file) {
 function FileSelectHandler(evt) {
     FileDragHover(evt);
     var files = evt.target.files || evt.dataTransfer.files;
+    var entries=[];
     for (var i = 0, f; f = files[i]; i++) {
         entry = createEntry(f)
-        $('#filedrag').append(entry)
-        //uploadFiles(f, $(entry).find('.progress-bar'));
+        $('#filedrag').append(entry);
+        uploadFiles(f, $(entry).find('.progress-bar'))
     }
 }
 
@@ -98,13 +99,11 @@ function uploadFiles(file, progressBar) {
                     percentComplete = parseInt(percentComplete * 100);
                     $(progressBar).css('width', percentComplete + '%');
                     console.log(percentComplete);
-                    if (percentComplete == 100) {
-                        //remove the progress bar
-                    }
                 }
             }, false);
             return xhr;
         },
+        async: true,
         url: 'uploadPage',
         type: 'POST',
         data: formData,
