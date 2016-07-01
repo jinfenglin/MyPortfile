@@ -86,7 +86,6 @@ function fadeOut() {
 
 //upload a single file a time and update the progress bar
 function uploadFiles(file, progressBar) {
-    console.log("start sending...");
     var formData = new FormData();
     formData.append("upload", file);
     $.ajax({
@@ -95,10 +94,9 @@ function uploadFiles(file, progressBar) {
             xhr.upload.addEventListener("progress", function (evt) {
                 if (evt.lengthComputable) {
                     var percentComplete = evt.loaded / evt.total;
-                    console.log(evt.total);
                     percentComplete = parseInt(percentComplete * 100);
                     $(progressBar).css('width', percentComplete + '%');
-                    console.log(percentComplete);
+                    console.log(percentComplete+'%');
                 }
             }, false);
             return xhr;
@@ -108,7 +106,7 @@ function uploadFiles(file, progressBar) {
         type: 'POST',
         data: formData,
         success: function (data) {
-            console.log(data);
+            console.log("success!");
         },
         cache: false,
         contentType: false,
