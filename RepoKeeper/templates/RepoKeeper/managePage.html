@@ -5,8 +5,9 @@
 {% block extraHeader %}
     <head>
         {% load static %}
+        <script src="{% static 'js/managePage.js' %}" type="text/javascript"></script>
         <script src="{% static 'js/upload.js' %}" type="text/javascript"></script>
-        <script scr="{% static 'js/popUp.js' %}" type="text/javascript"></script>
+
         <link rel="stylesheet" href="{% static 'css/upload.css' %}">
         <meta charset="UTF-8">
         <title>Recourse Mangae Page</title>
@@ -15,20 +16,30 @@
               href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
         <script>$.ajaxSetup({data: {csrfmiddlewaretoken: '{{ csrf_token }}'},});</script>
+        <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
     </head>
 {% endblock extraHeader %}
 
 <body>
 {% block content %}
-    {% include 'RepoKeeper/uploadPage.html' %}
-    <h1>Recourse Manage Page </h1>
-    <p> show content
+    <div style="padding: 10px; padding-top: 0px">
+        <div class="list-inline" >
+            <li class="btn btn-primary list-group-item" onclick='popUp()'> Upload</li>
+            <li class="btn btn-warning list-group-item" onclick=""> Delete</li>
+        </div>
+
+    </div>
+    <div class="contianer" style="overflow: auto;height: 600px">
+        <div id="resList" class="list-group">
+        </div>
+    </div>
+    <script>
         {% for file in file_list %}
-            <p> {{ file.file }} </p>
-            <br>
+            var res_row = createRecourseEntry({{file.id}});
+            $("#resList").append(res_row)
         {% endfor %}
-    </p>
-    <button onclick='popUp()'> click to pop</button>
+    </script>
+    {% include 'RepoKeeper/uploadPage.html' %}
 {% endblock content %}
 </body>
 </html>
