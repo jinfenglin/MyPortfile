@@ -86,8 +86,10 @@ function fadeOut() {
 
 //upload a single file a time and update the progress bar
 function uploadFiles(file, progressBar) {
+    console.log("start");
     var formData = new FormData();
     formData.append("upload", file);
+    console.log("data ready")
     $.ajax({
         xhr: function () {
             var xhr = new window.XMLHttpRequest();
