@@ -11,7 +11,8 @@ function Init() {
 
     //if clickoutside the pop_upload window, close the pop_up
     $('#overlay').on('click', function (event) {
-        if (event.target != $('#pop_upload').get(0) & $.inArray(event.target, $('#pop_upload').children()) == -1) {
+        //console.log($('#pop_upload').find(event.target).length);
+        if ($('#pop_upload').find(event.target).length<=0 && $('#pop_upload').get(0)!=event.target) {
             fadeOut();
         }
     })

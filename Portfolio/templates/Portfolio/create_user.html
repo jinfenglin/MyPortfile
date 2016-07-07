@@ -1,4 +1,3 @@
-{% extends "base.html" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,12 +24,12 @@
 
             <fieldset class="form-group">
                 <label for="PasswordInput"> Password</label>
-                {% render_field form.password id="PasswrodInput" class="form-control" %}
+                {% render_field form.password id="PasswrodInput" class="form-control" placeholder="Password" %}
             </fieldset>
 
             <fieldset class="form-group">
                 <label for="confirmInput" class="control-label"> Confirm Passwrod</label>
-                {% render_field form.confirm_password class="form-control" %}
+                {% render_field form.confirm_password class="form-control" placeholder="Confirm Password" %}
             </fieldset>
             <input type="submit" value="submit" class="btn btn-primary">
         </form>
