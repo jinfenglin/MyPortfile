@@ -21,14 +21,13 @@
 
 <body>
 {% block content %}
-    <div style="padding: 10px; padding-top: 0px">
-        <div class="list-inline" >
-            <li class="btn btn-primary list-group-item" onclick='popUp()'> Upload</li>
-            <li class="btn btn-warning list-group-item" onclick=""> Delete</li>
+    <div class="container" style="padding: 10px; padding-top: 0px">
+        <div class="nav nav-pills" style="margin: auto" >
+            <li class="btn btn-primary " role = "presentation" onclick='popUp()'> upload</li>
+            <li class="btn btn-danger " role = "presentation" onclick="">Delete</li>
         </div>
-
     </div>
-    <div class="contianer" style="overflow: auto;height: 600px">
+    <div class="container" style="overflow: auto;height: 600px">
         <div id="resList" class="list-group">
         </div>
     </div>
