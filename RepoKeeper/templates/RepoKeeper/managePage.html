@@ -8,6 +8,7 @@
         <script src="{% static 'js/upload.js' %}" type="text/javascript"></script>
 
         <link rel="stylesheet" href="{% static 'css/upload.css' %}">
+        <link rel="stylesheet" href="{% static 'css/managePage.css' %}">
         <meta charset="UTF-8">
         <title>Recourse Mangae Page</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
@@ -21,14 +22,14 @@
 
 <body>
 {% block content %}
-    <div class="container" style="padding: 10px; padding-top: 0px">
-        <div class="nav nav-pills" style="margin: auto" >
-            <li class="btn btn-primary " role = "presentation" onclick='popUp()'> upload</li>
-            <li class="btn btn-danger " role = "presentation" onclick="">Delete</li>
-        </div>
-    </div>
-    <div class="container" style="overflow: auto;height: 600px">
-        <div id="resList" class="list-group">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="nav nav-pills" style="margin: auto">
+                <li class="btn btn-primary " role="presentation" onclick='popUp()'> upload</li>
+                <li class="btn btn-danger " role="presentation" onclick="">Delete</li>
+            </div>
+            <div id="resList" class="list-group" style="overflow-clip: auto; margin-top: 20px">
+            </div>
         </div>
     </div>
     <script>
