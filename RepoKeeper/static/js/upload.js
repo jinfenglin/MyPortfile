@@ -1,10 +1,4 @@
-window.onload = function () {
-    if (window.File && window.FileList && window.FileReader) {
-        Init();
-    }
-}
-function Init() {
-
+$(function Init() {
     var fileselect = document.getElementById("fileselect");
     var filedrag = document.getElementById("filedrag");
     fileselect.addEventListener("change", FileSelectHandler, false);
@@ -49,7 +43,7 @@ function Init() {
             xhr.setRequestHeader("X-CSRFToken", csrftoken);
         }
     });
-}
+})
 
 
 function FileDragHover(evt) {

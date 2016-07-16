@@ -1,25 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+{% extends "base_load.html" %}
+{%  block extraLoad %}
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
-          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-            crossorigin="anonymous"></script>
     {% block extraHeader %}{% endblock extraHeader %}
     <title>{% block title %} MyPortfolio{% endblock title %}</title>
     {% load staticfiles %}
-</head>
-<body>
+{% endblock %}
+
+{% block base_content %}
 <!-- Brand and toggle get grouped for better mobile display -->
-<nav class="navbar navbar-justified navbar-static-top navbar-inverse">
+<nav class="navbar navbar-justified navbar-static-top navbar-inverse" style="margin-bottom: 0px">
     <div class="container-fluid" style="margin-left: 5%;margin-right: 5%">
         <div class="navbar-header">
             <a class="navbar-brand" style="margin-right: 50px" href="#"><p>AshCloud</p></a>
@@ -33,6 +23,9 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" style="position: absolute; top: 0px;left: 0px">
+                <li id="menu-toggle"><a href="#"> <span class="glyphicon glyphicon-th-list"> </span></a></li>
+            </ul>
             <ul class="nav navbar-nav">
 
                 <li><a href="#"> Gallary <span class="sr-only">(current)</span></a></li>
@@ -50,6 +43,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
+                {% if user.is_authenticated %}
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">Account Icon here <span class="caret"></span></a>
@@ -61,31 +55,22 @@
                         <li><a href="#">Sign Out</a></li>
                     </ul>
                 </li>
+                {% else %}
+                    <li> <a href="#"> Sign Up</a></li>
+                    <li><a href="#"> Sign In</a></li>
+                {% endif %}
             </ul>
 
         </div>
     </div>
 </nav>
-<!-- side bar-->
-<div id="wrapper">
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li><a href="#">link1</a></li>
-            <li><a href="#">link2</a></li>
-            <li><a href="#">link3</a></li>
-        </ul>
-    </div>
-    <div id="page-content-wrapper">
-            <a href="#" class="btn btn-success" id="menu-toggle"> Toggle Menu</a>
-            {% block content %}
-                <p> Replace the block here</p>
-            {% endblock content %}
-        <footer class="navbar-fixed-bottom"
-                style="text-align: center;background-color: #dddddd;padding-top: 10px;opacity: 0.5">
-            <p class="text-muted">&copy; 2016 Jinfeng Lin | Design and Development. All Rights Reserved.</p>
-        </footer>
-    </div>
-</div>
+{% block content %}
+
+{% endblock content %}
+<footer class="navbar-fixed-bottom"
+        style="text-align: center;background-color: #dddddd;padding-top: 10px;opacity: 0.5">
+    <p class="text-muted">&copy; 2016 Jinfeng Lin | Design and Development. All Rights Reserved.</p>
+</footer>
 <script>
     $("#menu-toggle").click(function (e) {
         e.preventDefault();
@@ -94,5 +79,4 @@
     });
 </script>
 
-</body>
-</html>
+{% endblock %}

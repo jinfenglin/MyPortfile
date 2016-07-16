@@ -1,5 +1,5 @@
 from django.shortcuts import  get_object_or_404, redirect
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login,logout
 from django.contrib.auth.decorators import login_required
 from django.views.generic.base import TemplateView, View
 from django.views.generic.edit import FormView
@@ -105,9 +105,11 @@ class ResendActivation(View):
         else:
             pass
         return redirect('homepage')
-
-
-class Edit(View):
+class Logout(View):
+    def get(self,request):
+        logout(request)
+        return redirect('homepage')
+'''class Edit(View):
     def get(self, request, *arg, **kwargs):
         return render(request, 'Portfolio/masterpiece_edit.html')
 
@@ -137,3 +139,4 @@ class Detail(View):
         print >> sys.stderr, request.session['test']
         context = {'html_element': request.session['test']}
         return render(request, 'Portfolio/masterpiece_detail.html', context)
+'''

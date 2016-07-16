@@ -1,40 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+{% extends "base_load.html" %}
+{% block extraLoad %}
     {% load static %}
     {% load widget_tweaks %}
-</head>
-<body>
-{% block content %}
-    <!--  ToDo Add validation with JS-->
+{% endblock %}
 
-    <div id="formBoard" class="container" style="width: 30%; padding-top: 5%">
-        <form action="" method="post">{% csrf_token %}
+<!--  ToDo Add validation with JS-->
+{% block base_content %}
+<div id="formBoard" class="container" style="width: 30%; padding-top: 5%">
+    <form action="" method="post">{% csrf_token %}
+        <fieldset class="form-group {% if form.username.errors %}has-error{% endif %}">
+            <label for="usernameInput" class="form-control-label">User Nmae</label>
+            {% render_field form.username class="form-control form-control-success " id="userNameInput" placeholder="Enter username" %}
+        </fieldset>
 
-            <fieldset class="form-group {% if form.username.errors %}has-error{% endif %}">
-                <label for="usernameInput" class="form-control-label">User Nmae</label>
-                {% render_field form.username class="form-control form-control-success " id="userNameInput" placeholder="Enter username" %}
-            </fieldset>
+        <fieldset class="form-group">
+            <label for="EmailInput">Email</label>
+            {% render_field form.email id="EmailInput" class="form-control" placeholder="Enter Email" %}
+        </fieldset>
 
-            <fieldset class="form-group">
+        <fieldset class="form-group">
+            <label for="PasswordInput"> Password</label>
+            {% render_field form.password id="PasswrodInput" class="form-control" placeholder="Password" %}
+        </fieldset>
 
-                <label for="EmailInput">Email</label>
-                {% render_field form.email id="EmailInput" class="form-control" placeholder="Enter Email" %}
-            </fieldset>
-
-            <fieldset class="form-group">
-                <label for="PasswordInput"> Password</label>
-                {% render_field form.password id="PasswrodInput" class="form-control" placeholder="Password" %}
-            </fieldset>
-
-            <fieldset class="form-group">
-                <label for="confirmInput" class="control-label"> Confirm Passwrod</label>
-                {% render_field form.confirm_password class="form-control" placeholder="Confirm Password" %}
-            </fieldset>
-            <input type="submit" value="submit" class="btn btn-primary">
-        </form>
-    </div>
-
-{% endblock content %}
-</body>
-</html>
+        <fieldset class="form-group">
+            <label for="confirmInput" class="control-label"> Confirm Passwrod</label>
+            {% render_field form.confirm_password class="form-control" placeholder="Confirm Password" %}
+        </fieldset>
+        <input type="submit" value="submit" class="btn btn-primary">
+    </form>
+</div>
+{% endblock %}
