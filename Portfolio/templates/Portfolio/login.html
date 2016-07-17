@@ -1,17 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+{% extends "base_load.html" %}
+{% block extraLoad %}
+    {% load static %}
+    {% load widget_tweaks %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% endblock %}
+{% block base_content %}
+    <div id="ground">
+        <div class="logo-contianer center-it">
+            <h1>Proud of your works</h1>
+        </div>
+        <div class="container" id="board">
+            <div class="login-form center-it">
+                <form method='post'>{% csrf_token %}
+                    <fieldset class="form-group">
+                        {% render_field form.username class="form-control form-control-success " id="userNameInput" placeholder="Enter username" %}
+                        {% render_field form.password id="PasswrodInput" class="form-control" placeholder="Password" %}
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <input id='submit' type='submit' value="submit">
+                    </fieldset>
+                    <fieldset>
+                        <a> Sign Up</a>
+                    </fieldset>
 
-</head>
-<body>
-<div class="container">
-    <div class="row">
-        <form method='post'>{% csrf_token %}
-            {{ form.username }}
-            {{ form.password }}
-            <input type='submit' value="submit">
-        </form>
+                    <fieldset>
+                        <a> Forget Password ?</a>
+                    </fieldset>
+
+                </form>
+            </div>
+        </div>
     </div>
-</div>
-</body>
-</html>
+{% endblock %}
+
