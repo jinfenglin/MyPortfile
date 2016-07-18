@@ -1,4 +1,22 @@
-.regText{
-    height: 20px;
-    width: 160px
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/register1.jpg");
+    background-size: 100% 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.form-panel{
+    width: 30%;
+    margin: auto;
+}
+
+.btn{
+    width: 100%;
+}
+fieldset{
+    opacity: 0.6;
 }
