@@ -23,9 +23,6 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav" style="position: absolute; top: 0px;left: 0px">
-                <li id="menu-toggle"><a href="#"> <span class="glyphicon glyphicon-th-list"> </span></a></li>
-            </ul>
             <ul class="nav navbar-nav">
 
                 <li><a href="#"> Gallary <span class="sr-only">(current)</span></a></li>
@@ -43,7 +40,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                {% if user.is_authenticated %}
+                {% if user.is_authenticated %}<!-- Build the round icon here -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">Account Icon here <span class="caret"></span></a>
@@ -71,12 +68,4 @@
         style="text-align: center;background-color: #dddddd;padding-top: 10px;opacity: 0.5">
     <p class="text-muted">&copy; 2016 Jinfeng Lin | Design and Development. All Rights Reserved.</p>
 </footer>
-<script>
-    $("#menu-toggle").click(function (e) {
-        e.preventDefault();
-        console.log("toggle")
-        $("#wrapper").toggleClass("menuDisplayed")
-    });
-</script>
-
 {% endblock %}

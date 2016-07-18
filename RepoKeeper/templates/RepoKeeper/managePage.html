@@ -27,7 +27,7 @@
     <div id="wrapper">
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                 <li><a href="#" id="allTab">All</a></li>
+                <li><a href="#" id="allTab">All</a></li>
                 <li><a href="#" id="videoTab">Video</a></li>
                 <li><a href="#" id="imageTab">Image</a></li>
                 <li><a href="#" id="textTab">Text</a></li>
@@ -47,15 +47,34 @@
         </div>
     </div>
     <script>
-        var file_list= {{ file_list }}
-        $(function(){
-            $('#videoTab').click(function(){getTypeFile(file_list,"VIDEO")})
-            $('#imageTab').click(function(){getTypeFile(file_list,"IMAGE")})
-            $('#textTab').click(function(){getTypeFile(file_list,"TEXT")})
-            $('#otherTab').click(function(){getTypeFile(file_list,"UNKNOWN")})
-            $('#allTab').click(function(){getTypeFile(file_list,"ALL")})
-        })
-        insertEntryInContainer(file_list,$('#resList'))
+        var file_list = {{ file_list }}
+                $(function () {
+                    $('#videoTab').click(function () {
+                        getTypeFile(file_list, "VIDEO")
+                    })
+                    $('#imageTab').click(function () {
+                        getTypeFile(file_list, "IMAGE")
+                    })
+                    $('#textTab').click(function () {
+                        getTypeFile(file_list, "TEXT")
+                    })
+                    $('#otherTab').click(function () {
+                        getTypeFile(file_list, "UNKNOWN")
+                    })
+                    $('#allTab').click(function () {
+                        getTypeFile(file_list, "ALL")
+                    })
+
+                    $('#bs-example-navbar-collapse-1').append($('<ul class="nav navbar-nav" style="position: absolute; top: 0px;left: 0px">\
+                <li id="menu-toggle"><a href="#"> <span class="glyphicon glyphicon-th-list"> </span></a></li>\
+            </ul>'))
+                    $("#menu-toggle").click(function (e) {
+                        e.preventDefault();
+                        console.log("toggle")
+                        $("#wrapper").toggleClass("menuDisplayed")
+                    });
+                })
+        insertEntryInContainer(file_list, $('#resList'))
     </script>
     {% include 'RepoKeeper/uploadPage.html' %}
 {% endblock content %}
