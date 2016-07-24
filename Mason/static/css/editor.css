@@ -1,0 +1,24 @@
+.wrapper {
+    height: 200vh;
+    border: solid red;
+}
+
+.tool-belt {
+    display: flex;
+    top: 0;
+    width: 100%;
+    border:solid;
+}
+
+#operation-list {
+    margin-left: auto;
+    margin-right: 20px;
+}
+#component-list{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-pills > li + li {
+    margin-left: 60px;
+}

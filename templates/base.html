@@ -1,10 +1,11 @@
 {% extends "base_load.html" %}
 {%  block extraLoad %}
     {% load static %}
+    {% load staticfiles %}
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% block extraHeader %}{% endblock extraHeader %}
     <title>{% block title %} MyPortfolio{% endblock title %}</title>
-    {% load staticfiles %}
+
 {% endblock %}
 
 {% block base_content %}
@@ -30,7 +31,7 @@
                 <li>
                     <form class="navbar-form ">
                         <div class="input-group">
-                            <input type="text" class="form-control" style="width: 400px"
+                            <input type="text" class="form-control" style="width: 500px;"
                                    placeholder="Search for awesome stuff">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-search"
                                                                   aria-hidden="true"></span></span>

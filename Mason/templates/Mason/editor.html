@@ -1,7 +1,29 @@
 {% extends 'base.html' %}
+{% block extraHeader %}
+    {% load static %}
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/editor.css' %}">
+    <script src="{% static 'js/editor.js' %}" type="text/javascript"></script>
+{% endblock %}
 {% block title %}
-    <p>Mason</p>
+    Mason
 {% endblock %}
 {% block content %}
+    <div class="wrapper">
+        <div class="navbar tool-belt" data-spy="affix" data-offset-top="10">
+            <ul id='component-list' class="nav nav-pills">
+                <li><a href="#"> Text</a></li>
+                <li><a href="#"> Audio</a></li>
+                <li><a href="#"> Video</a></li>
+                <li><a href="#"> Image</a></li>
+                <li><a href="#"> Gallary</a></li>
 
+            </ul>
+            <ul id="operation-list" class="nav nav-pills">
+                <li><a href="#"> Preview</a></li>
+                <li><a href="#"> Save</a></li>
+            </ul>
+
+        </div>
+    </div>
 {% endblock %}
